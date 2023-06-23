@@ -12,14 +12,14 @@ Então o resultado deve ser 20
 
 Esquema do Cenário: Soma de dois números
 Quando eu digitar na calculadora
-E <somar>
+E <somar1> com <somar2>
 Então deve trazer o <resultado>
 
             Exemplos:
 
-            | somar | resultado |
-            | "3+1" | "4"       |
-            | "2+5" | "7"       |
-            | "3+6" | "9"       |
-            | "4+7" | "11"      |
-            | "5+8" | "13"      |
+            | somar1 | somar2 | resultado |
+            | "3"    | "1"    | "4"       |
+            | "2"    | "5"    | "7"       |
+            | "3"    | "6"    | "9"       |
+            | "4"    | "7"    | "11"      |
+            | "5"    | "8"    | "13"      |
